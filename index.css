@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,600;1,800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+}
+body {
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 64px;
+    margin-bottom: 40px;
+}
+
+.active{
+    color: #79AC78;
+    border-bottom: 2px solid #79AC78;
+}
+
+header ul a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type:none;
+}
+nav li {
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+a {
+    color:black;
+    font-family: EB garamond;
+}
+button {
+    color:white;
+    width: 150px;
+    height: 40px;
+    background-color:#618264;
+    font-family: EB garamond;
+}
+.nganou {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 64px;
+
+}
+.imageNganou {
+    background-image:url("images/Francis-Ngannou-domine-Ciryl-Gane-au-sol-et-remporte-le-combat-par-decision-unanime\ 1.svg");
+    background-repeat: no-repeat;
+    width: 841px;
+    height: 622px;
+    display: flex;
+    align-items:flex-end;
+}
+.h1{
+    border-left: 15px solid  #618264;
+    padding: 15px;
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: EB garamond;
+}
+span {
+    font-size: 20px;
+    font-family: EB garamond;
+}
+h2 {
+    border-left: 15px solid  #618264;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: EB garamond;
+}
+.imageAkonolinga {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.group30{
+    padding: 0 64px;
+}
+.imageGroup30 {
+    background-image:url("images/Group 30.svg");
+    background-repeat: no-repeat;
+    width: 1372px;
+    height: 472px;
+}
+span {
+    text-align: center;
+}
+.actualite {
+    margin-left: 130px;
+}
+.canalMatin,.ccomment,.produitCanal2{
+    margin-left: 130px;
+
+}
+.produitCanal2 {
+    margin-left: 0;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("images/Rectangle 29.svg");
+    height: 300px;
+    padding: 10px;
+}
+.logo2 {
+    align-self: flex-end;
+}
+.sociaux{
+    display: flex;
+    justify-content: space-between;
+   margin-left: 500px;
+   margin-right: 500px;
+}
+.texte {
+    font-size: 40px;
+    align-self: center;
+    color: white;
+    margin-top: 40px;
+}
+  
+p{
+    margin-left: 300px;
+    margin-bottom: 50px;
+    font-family: EB garamond;
+}
